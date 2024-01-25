@@ -1,0 +1,359 @@
+
+
+body {
+    width: 100%;   
+    background-color: rgba(255, 203, 116, 0.2);  
+}
+
+h2 {
+    color: var(--113E21, #113E21);
+    font-family: Jacques Francois;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+}
+p {
+    color: var(--113E21, #113E21);
+    font-family: Jaldi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+}
+li {
+    list-style-type: none;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    grid-area: nav;
+    display:flex;
+    align-items: center;
+    background-color:rgba(255, 203, 116, 0.2);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.name {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Jacques Francois;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding-left: 35px;
+}
+.rainbowlogo {
+    padding-left: 9px;
+}
+nav {
+    flex:1;
+    text-align: right;
+    padding-right: 35px;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-family: Jacques Francois;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.pagecontents {
+    display:inline-flex;
+    align-content: center;
+}
+.centerarticles {
+    display: inline-flex;
+    margin-top: 87px;
+    margin-left: 62px;
+    margin-right: 75px;
+}
+.profilepicturesection{
+    width: 20%;
+    display:flex;
+}
+.profilepicture {
+    display:flex;
+    width: 188px;
+    height: 202px;
+    flex-shrink: 0;
+    border-radius: 202.188px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-top: 80px;
+    margin-left: 87px;
+}
+
+.firstparagraph {
+    display: inline;
+    width: 45%;
+    height: 312px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.secondparagraph{
+    display: inline;
+    width: 45%;
+    height: 219px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 87px;
+    margin-left: 75px;
+    margin-bottom: 93px;
+}
+section {
+    display:flex;
+
+}
+.leftcontainer {
+    border-radius: 60px;
+    background: var(--FEFEFE, #FEFEFE);
+    width:50%;
+    height: 431px;
+    flex-shrink: 0;
+    margin-left: 40px;
+}
+.bottomleft {
+    display: inline;
+    width: 45%;
+    height: 312px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left:200px;
+}
+.whatilove {
+    color: var(--113E21, #113E21);
+    font-family: Jacques Francois;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+    margin-left: 36px;
+}
+.whatilovelist {
+    color: var(--113E21, #113E21);
+    font-family: Jaldi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    margin-left: 138px;
+}
+.rightcontainer {
+    border-radius: 60px;
+    background: var(--FEFEFE, #FEFEFE);
+    width:35%;
+    height: 431px;
+    flex-shrink: 0;
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+}
+.bottomright {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.thetools {
+    color: var(--113E21, #113E21);
+    font-family: Jacques Francois;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.thetoolslist {
+    color: var(--113E21, #113E21);
+    font-family: Jaldi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    margin-left: 138px;
+}
+
+.pagefooter{
+    background-color: rgba(255, 203, 116, 0.2);
+    width:100%;
+    height:5%;
+}
+
+.quote {
+    display:flex;
+    padding-top: 5px;;
+    margin-left: 20px;
+}
+.footerquote {
+    color: #000;
+    font-family: Jacques Francois;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.rightfooter ul li {
+    display: inline-flex;
+    
+}
+.email {
+    color: var(--F7B318, #F7B318);
+    font-family: Jacques Francois;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: capitalize;    
+}
+
+@media (max-width:1200px) {
+    .pagecontents {
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:900px) {
+    .pagecontents {
+        display:flex;
+        flex-direction: column;
+    }
+    .firstparagraph h2 {
+        width:500px;
+    }
+    .boxcontents {
+        display:flex;
+    }
+    .leftcontainer {
+        margin-top: 150px;
+        width: 40%;
+        height: 350px;
+    }
+    .whatilove {
+        font-size:1rem;
+    }
+    .whatilovelist {
+        font-size: 0.75rem;
+        margin:20px;
+    }
+    .rightcontainer {
+        margin-top: 150px;
+        width: 40%;
+        height: 350px;
+    }
+    .thetools {
+        font-size:1rem;
+        margin-left:20px;
+    }
+    .thetoolslist {
+        font-size: 0.75rem;
+        margin-left:20px;
+    }
+.footerquote {
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+  .email {
+    font-size: 1rem;
+  }
+}
+@media (max-width:600px) {
+    nav ul li{
+        display:flex;
+        flex-direction: column;
+    }
+    .pagecontents {
+        display:flex;
+        flex-direction: column;
+    }
+    .boxcontents {
+        display:flex;
+        flex-direction: column;
+    }
+    .leftcontainer {
+        margin-top: 450px;
+        width: 90%;
+        height: 350px;
+    }
+    .whatilove {
+        font-size:1rem;
+    }
+    .whatilovelist {
+        font-size: 0.75rem;
+        margin:20px;
+    }
+    .rightcontainer {
+        margin-top: 5%;
+        margin-left: 30px;
+        width: 92%;
+        height: 350px;
+    }
+    .thetools {
+        font-size:1rem;
+        margin-left:35px;
+    }
+    .thetoolslist {
+        font-size: 0.75rem;
+        margin-left:20px;
+    }
+    .quote p {
+    font-size:14px;
+    }
+    .pagefooter {
+        display: flex;
+        justify-content: center;
+        height:10%;
+    }
+   .quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+    .email{
+    font-size:14px;
+    margin-right: 0px;
+    }
+    .LinkedIn {
+    width:14px;
+    height:14px;
+    margin-left: 0px;
+    padding: 0px;
+    }
+}
+*,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }

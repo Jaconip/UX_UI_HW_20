@@ -1,0 +1,180 @@
+body {
+    background-color: rgba(255, 203, 116, 0.2);
+}
+
+.navbar {
+    display:flex;
+    align-items: center;
+    background-color:rgba(255, 203, 116, 0.2);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.name {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Jacques Francois;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding-left: 35px;
+}
+.rainbowlogo {
+    padding-left: 9px;
+    width:40px;
+     height:40px;
+}
+nav {
+    flex:1;
+    text-align: right;
+    padding-right: 35px;
+}
+
+nav ul li {
+    display: inline-block;
+    flex-direction: row;
+    text-align: right;
+    margin-left: 20px;
+}
+nav ul li {
+    text-decoration: none;
+    color: #000;
+    font-family: Jacques Francois;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+  #dropdown {
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+.dropdownlist {
+    display: none;
+    font-family: Jacques Francois;
+    font-size: 16px;
+    font-style: normal;
+}
+.dropdownlist li {
+    display: flex;
+    flex-direction: column;
+    float:center;
+    color: #113E21;
+    font-family: Jacques Francois;
+    font-size: 16px;
+    font-style: normal;
+}
+.topnavright {
+    text-decoration: none;
+    color: #000;
+    font-family: Jacques Francois;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.heroimage {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 198px;
+    background:  lightgray -50.635px 0px / 144% 100% no-repeat;
+    box-shadow: 0px 0.975px 0.975px 0px rgba(0, 0, 0, 0.25);
+}
+
+.text {
+    color: #000;
+    text-align: center;
+    font-family: Jacques Francois;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 46px;
+    margin-bottom: 150px;
+}
+.portfoliofooter{
+    background-color: rgba(255, 203, 116, 0.2);
+    width:100%;
+    height:6%;
+    margin-top: 150x;
+    margin-bottom: 0px;
+}
+
+
+.quote {
+    display:flex;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.footerquote {
+    color: #000;
+    font-family: Jacques Francois;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.email {
+    color: #113E21;
+    font-family: Jacques Francois;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: capitalize; 
+    margin-left: 840px;
+}
+.linkedin {
+    margin-left: 6px;
+    padding-top: 5px;
+    width:20px;
+     height:24px;
+}
+
+
+
+
+
+*,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ 
+  
