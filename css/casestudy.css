@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+body {
+    font-family: "Nunito Sans", sans-serif !important;
+    background: var(--Whitevariant, #FDFDFD);
+}
+
+
+.wetlandcare_website {
+  width: 1000px;
+  height: 800px;
+}
+H2 {
+  color: var(--Baby-Blue, #6CACE4);
+font-family: "Nunito Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2px;
+}
+p {
+  color: var(--Moss-green, #014421);
+font-family: "Nunito Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.9px;
+}
+li {
+  color: var(--Moss-green, #014421);
+font-family: "Nunito Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.9px;
+}
+.solution{
+  width: 890px;
+  display: inline;
+  justify-content: center;
+}
+.solution li {
+  text-align: left;
+}
+.h2red{
+  color: var(--Violet, #890C58);
+font-family: "Nunito Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2px;
+}
+.footer {
+  border-top: 1px solid var(--Light-blue, #4AC9E3);
+}
+.statement {
+  color: #000;
+font-family: "Nunito Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.2px;
+}
+.linkedin {
+  width: 40.02px;
+height: 35.304px;
+flex-shrink: 0;
+}
+
+
+
+
+  
